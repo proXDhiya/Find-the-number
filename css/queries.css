@@ -2,7 +2,7 @@
 @media only screen and (max-width: 590px) { html { font-size: 40% ; } }
 @media only screen and (max-width: 510px) { html { font-size: 35% ; } }
 @media only screen and (max-width: 410px) { html { font-size: 30% ; } }
-@media only screen and (max-height: 550px) {
+@media only screen and (max-height: 490px) {
     header { display: none; }
     main { display: none; }
     .alert { display: block; }
