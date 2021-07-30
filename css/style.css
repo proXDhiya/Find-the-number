@@ -117,3 +117,36 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+.alert {
+  height: 100vh;
+  width: auto;
+  display: none;
+}
+
+.alert-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 220px;
+  border-radius: 10px;
+  background: rgba(204, 204, 204, 0.2);
+  backdrop-filter: blur(0.3);
+  transform: translate(-50%, -50%);
+}
+
+.rotate {
+  padding-top: 10px;
+  display: none;
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.alert-box p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 210%;
+}
