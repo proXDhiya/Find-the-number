@@ -1,5 +1,15 @@
 'use strict';
 
+// alert for users
+alert(`
+Guess the Number is a fun educational game that challenges kids to find a number based on greater than or less than feedback.
+                        --------------------------
+                        |  'r'        ----->  Again!   |
+                        | 'Enter'  ----->  check!  |
+                        --------------------------
+`)
+
+
 // create a randon number function
 const rand = () => Math.trunc(Math.random() * 100) + 1;
 
@@ -15,6 +25,7 @@ const again = function() {
     document.querySelector('.score').textContent = '100';
     document.querySelector('.message').textContent = 'Start guessing...';
     document.querySelector('.number').textContent = '?';
+    document.querySelector('.guess').value = NaN;
     secretNumber = rand();
 }
 
@@ -64,7 +75,7 @@ document.querySelector('.again').addEventListener(
 )
 
 
-// check botton
+// check button
 document.querySelector('.check').addEventListener(
     'click', function() {
         check();
